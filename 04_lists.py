@@ -24,7 +24,7 @@ def main() -> None:
     print(fruits, favFruits)
 
     # for mutable objects (list, dictionaries, set), slicing create a shallow copy
-    programmingLanguages = [["go", "zig", "ust"], ["python", "php", "ruby"]]
+    programmingLanguages = [["go", "zig", "rust"], ["python", "php", "ruby"]]
     # programming = programmingLanguages.copy()
     programming = programmingLanguages[:]
     print(programming)
